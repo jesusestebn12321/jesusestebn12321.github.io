@@ -19,7 +19,7 @@
     =============================*/
     $('.gallery-slide').owlCarousel({
         loop: true,
-        margin: 0,
+        margin: 350,
         responsiveClass: true,
         nav: false,
         autoplay: true,
@@ -35,9 +35,6 @@
             },
             1280: {
                 items: 3
-            },
-            1500: {
-                items: 4
             }
         }
     });

@@ -483,18 +483,15 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-4"></div>
-                <div class="col-xs-12 col-sm-4"></div>
-                <div class="col-xs-12 col-sm-4">
-                    <a class="bttn-default bttn-blue active app-btn-show-more" href="galeria.php" style="margin-left:50%;margin-top:5rem;margin-bottom:5rem;font-size:2rem;text-transform: uppercase !important;" type="submit">Ver mas</a>
-                </div>
-            </div>
         </div>
     </section>
     <!-- Gallery-Area-End -->
     <!-- Subscribe-Form -->
-    <!-- <div class="section-padding">
+    <?php include ('galeria.php');?>
+
+
+
+   <!--  <div class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -531,4 +528,7 @@
             </div>
         </div>
     </div> -->
-   
+    <?php if ($_GET["status"]): ?>
+            <script>alert(<?php echo $_GET["status"] ?>)</script>
+    <?php endif ?>
+ 

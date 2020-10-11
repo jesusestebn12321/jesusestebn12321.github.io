@@ -1,110 +1,38 @@
 <?php
     require_once 'config/config.php';
-    include 'view/layouts/app.php';
+    
 ?>
-<div class="section-padding">
-    <div class="container-fluid" style="padding:5rem ">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <article class="post-single">
-                    <figure class="post-media">
-                        <img src="<?php echo constant('APP_STATIC')?>/images/rebel/login.png" alt="login">
-                    </figure>
-                    <div class="post-body">
-                        <div class="post-meta">
-                            <div class="post-tags"><h3>Rebel</h3></div>
-                        </div>
-                        <h4 class="dark-color"><a href="single.html">Log in REBEL</a></h4>
-                        <a href="<?php echo constant('APP_STATIC')?>/images/rebel/login.png" class="read-more">Ver Imagen</a>
+ <section class="section-padding" id="gallery_page">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h3 class="title wow fadeInUp" data-wow-delay="0.4s">Screenshot</h3>
                     </div>
-                </article>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <article class="post-single">
-                    <figure class="post-media">
-                        <img src="<?php echo constant('APP_STATIC')?>/images/rebel/dashboard.png" alt="login">
-                    </figure>
-                    <div class="post-body">
-                        <div class="post-meta">
-                            <div class="post-tags"><h3>Rebel</h3></div>
-                        </div>
-                        <h4 class="dark-color"><a href="single.html">Dashboard REBEL</a></h4>
-                        <a href="<?php echo constant('APP_STATIC')?>/images/rebel/dashboard.png" class="read-more">Ver Imagen</a>
+                </div>
+                <div class="col-xs-12 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item" style="width:40rem; height: 25rem;padding-left:0rem"><img style='width: 100%; height: 100%' src="<?php echo constant('APP_STATIC')?>/images/rebel/login.png" alt="login"></div>
+                        <div class="item" style="width:40rem; height: 25rem;padding-left:0rem"><img style='width: 100%; height: 100%' src="<?php echo constant('APP_STATIC')?>/images/rebel/dashboard.png" alt=""></div>
+                        <div class="item" style="width:40rem; height: 25rem;padding-left:0rem"><img style='width: 100%; height: 100%' src="<?php echo constant('APP_STATIC')?>/images/rebel/teacher.png" alt=""></div>
+                        <div class="item" style="width:40rem; height: 25rem;padding-left:0rem"><img  style='width: 100%; height: 100%'src="<?php echo constant('APP_STATIC')?>/images/expedientes.jpg" alt=""></div>
+                        <div class="item" style="width:40rem; height: 25rem;padding-left:0rem"><img style='width: 100%; height: 100%' src="<?php echo constant('APP_STATIC')?>/images/sala.jpg" alt=""></div>
+                        <div class="item" style="width:40rem; height: 25rem;padding-left:0rem"><img style='width: 100%; height: 100%' src="<?php echo constant('APP_STATIC')?>/images/sala/login.png" alt=""></div>
+                        <div class="item" style="width:40rem; height: 25rem;padding-left:0rem"><img style='width: 100%; height: 100%' src="<?php echo constant('APP_STATIC')?>/images/travel.jpg" alt=""></div>
+                       <!--  <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-4.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div> -->
                     </div>
-                </article>
-            </div>
-            
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <article class="post-single">
-                    <figure class="post-media">
-                        <img src="<?php echo constant('APP_STATIC')?>/images/rebel/teacher.png" alt="">
-                    </figure>
-                    <div class="post-body">
-                        <div class="post-meta">
-                            <div class="post-tags"><h3>Rebel</h3></div>
-                        </div>
-                        <h4 class="dark-color"><a href="single.html">Modulo Teacher REBEL</a></h4>
-                        <a href="<?php echo constant('APP_STATIC')?>/images/rebel/teacher.png" class="read-more">Ver Imagen</a>
-                    </div>
-                </article>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <article class="post-single">
-                    <figure class="post-media">
-                        <img src="<?php echo constant('APP_STATIC')?>/images/expedientes.jpg" alt="">
-                    </figure>
-                    <div class="post-body">
-                        <div class="post-meta">
-                            <div class="post-tags"><h3>Expediente Digital</h3></div>
-                        </div>
-                        <h4 class="dark-color"><a href="single.html">Five ways to wear a shirt by Victoria Beckha</a></h4>
-                        <a href="single.html" class="read-more">Ver Imagen</a>
-                    </div>
-                </article>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <article class="post-single">
-                    <figure class="post-media">
-                        <img src="<?php echo constant('APP_STATIC')?>/images/sala.jpg" alt="">
-                    </figure>
-                    <div class="post-body">
-                        <div class="post-meta">
-                            <div class="post-tags"><h3>SilenceRT</h3></div>
-                        </div>
-                        <h4 class="dark-color"><a href="single.html">Modulo People SilenceRT</a></h4>
-                        <a href="<?php echo constant('APP_STATIC')?>/images/sala.jpg" class="read-more">Ver Imagen</a>
-                    </div>
-                </article>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <article class="post-single">
-                    <figure class="post-media">
-                        <img src="<?php echo constant('APP_STATIC')?>/images/sala/login.png" alt="">
-                    </figure>
-                    <div class="post-body">
-                        <div class="post-meta">
-                            <div class="post-tags"><h3>SilenceRT</h3></div>
-                        </div>
-                        <h4 class="dark-color"><a href="single.html">Log in SilenceRT</a></h4>
-                        <a href="<?php echo constant('APP_STATIC')?>/images/sala/login.png" class="read-more">Ver Imagen</a>
-                    </div>
-                </article>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <article class="post-single">
-                    <figure class="post-media">
-                        <img src="<?php echo constant('APP_STATIC')?>/images/travel.jpg" alt="">
-                    </figure>
-                    <div class="post-body">
-                        <div class="post-meta">
-                            <div class="post-tags"><h3>QantunTravel</h3></div>
-                        </div>
-                        <h4 class="dark-color"><a href="single.html">Modeulo Operadores QantunTravel</a></h4>
-                        <a href="<?php echo constant('APP_STATIC')?>/images/travel.jpg" class="read-more">Ver Imagen</a>
-                    </div>
-                </article>
+                </div>
+                
             </div>
         </div>
-    </div>
-</div>
+    </section>
+
+
+
+
+<!--  -->

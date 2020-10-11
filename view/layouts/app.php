@@ -112,48 +112,39 @@
 			                    </div>
 			                </div>
 			                <div class="row">
-			                    <div class="col-xs-12 col-sm-2">
+			                    <div class="col-xs-12 col-sm-3">
 			                        <div class="footer-box">
 			                            <div class="box-icon">
 			                                <span class="lnr lnr-map-marker"></span>
 			                            </div>
-			                            <p class='app-p-footer' style='color:white'>Venezuela, Guarico, San Juan de los Morros</p>
+			                            <p class='app-p-footer' title="Dirección" style='color:white'>Venezuela, Guarico, San Juan de los Morros</p>
 			                        </div>
 			                        <div class="space-30 hidden visible-xs"></div>
 			                    </div>
-			                    <div class="col-xs-12 col-sm-2">
+			                    <div class="col-xs-12 col-sm-3">
 			                        <div class="footer-box">
 			                            <div class="box-icon">
 			                                <span class="lnr lnr-phone-handset"></span>
 			                            </div>
-			                            <p class='app-p-footer' style='color:white'>+58 (412) 480-84-94</p>
+			                            <p class='app-p-footer' title="Whatsapp" style='color:white'>+58 (412) 480-84-94</p>
 			                        </div>
 			                        <div class="space-30 hidden visible-xs"></div>
 			                    </div>
-			                    <div class="col-xs-12 col-sm-4">
+			                    <div class="col-xs-12 col-sm-3">
 			                        <div class="footer-box">
 			                            <div class="box-icon">
 			                                <span class="lnr lnr-envelope"></span>
 			                            </div>
-			                            <p class='app-p-footer' style='color:white'>jesusesteban12321@gmail.com
+			                            <p class='app-p-footer' title="E-mail" style='color:white'>jesusesteban12321@gmail.com
 			                            </p>
 			                        </div>
 			                    </div>
-			                    <div class="col-xs-12 col-sm-2">
+			                    <div class="col-xs-12 col-sm-3">
 			                        <div class="footer-box">
 			                            <div class="box-icon">
 			                                <span class="lnr lnr-location" ></span>
 			                            </div>
-			                            <p class='app-p-footer' style='color:white'>@root_12321
-			                            </p>
-			                        </div>
-			                    </div>
-			                    <div class="col-xs-12 col-sm-2">
-			                        <div class="footer-box">
-			                            <div class="box-icon">
-			                                <span class="lnr lnr-cloud"></span>
-			                            </div>
-			                            <p class='app-p-footer' style='color:white'>@esteban12321
+			                            <p class='app-p-footer' title="Telegram" style='color:white'>@root_12321
 			                            </p>
 			                        </div>
 			                    </div>
