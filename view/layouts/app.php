@@ -126,7 +126,7 @@
 			                            <div class="box-icon">
 			                                <span class="lnr lnr-phone-handset"></span>
 			                            </div>
-			                            <p class='app-p-footer' title="Whatsapp" style='color:white'>+58 (412) 480-84-94</p>
+			                            <p class='app-p-footer' title="Whatsapp" style='color:white'>+58 (412) 782-64-25</p>
 			                        </div>
 			                        <div class="space-30 hidden visible-xs"></div>
 			                    </div>
