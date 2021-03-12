@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="page-title text-center">
-                        <h3 class="title">Tecnologias</h3>
+                        <h3 class="title">Skill</h3>
                         <div class="space-60"></div>
                     </div>
                 </div>
@@ -487,7 +487,7 @@
     </section>
     <!-- Gallery-Area-End -->
     <!-- Subscribe-Form -->
-    <?php include ('galeria.php');?>
+    <!-- php include ('galeria.php'); -->
 
 
 
