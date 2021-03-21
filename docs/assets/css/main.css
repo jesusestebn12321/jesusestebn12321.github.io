@@ -87,6 +87,13 @@ a:not([href]):not([tabindex]) {
   width: 60px;
   background-color: #F63854;
 }
+.shape-two {
+  height: 1px;
+  margin: 0 auto 30px;
+  position: relative;
+  width: 60px;
+  background-color: #ccc;
+}
 
 .padding-none {
   padding: 0px;
