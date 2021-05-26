@@ -177,9 +177,9 @@
                                     <p>
                                         <i class="lnr lnr-star"></i>
                                         <i class="lnr lnr-star"></i>
-                                        <i class="lnr lnr-star" style="color:#dddd"></i>
-                                        <i class="lnr lnr-star" style="color:#dddd"></i>
-                                        <i class="lnr lnr-star" style="color:#dddd"></i>
+                                        <i class="lnr lnr-star"></i>
+                                        <i class="lnr lnr-star"></i>
+                                        <i class="lnr lnr-star"></i>
                                     </p>
                                 </li>
                                 <li class='list-group-item-text'><br></li>
